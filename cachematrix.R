@@ -5,6 +5,7 @@
 ## stores a matrix and caches its inverse.
 
 ## This function creates a special "matrix" object that can cache its inverse.
+
   
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -34,7 +35,7 @@ cachesolve <- function(x, ...) {
          x$setInverse(inv)
          inv
  }
-## To Test:
+## Commands to Test:
 
 my_matrix$get()
 my_matrix$getInverse()
