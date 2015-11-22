@@ -35,10 +35,3 @@ cachesolve <- function(x, ...) {
          x$setInverse(inv)
          inv
  }
-## Commands to Test:
-
-my_matrix$get()
-my_matrix$getInverse()
-cachesolve(my_matrix)
-my_matrix$getInverse()
-my_matrix$set(matrix(c(2, 2, 1, 4), 2, 2))
